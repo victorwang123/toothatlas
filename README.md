@@ -6,4 +6,12 @@ Spatial mappings of gene expression at E14.5 was made using DistMap method ([Kar
 - **e14.5_geometry.csv** The file used to create the coordinates
 - **e14.5_spatial.rds** The object for processing and mapping to the virtual tooth
 ## Quick Start Guide
+In short,users need to download the files, then open the  `vish.R` in rstudio and run the script step by step.
 
+![vish1](./images/vish1.png)
+
+Users can visualize the genes they want to predict by changing the gene names
+> plot_vish_image("Cdkn1c", 0.8)       
+> 'Cdkn1c' can be replaced by other gene names
+
+![vish1](./images/vish2.png)
