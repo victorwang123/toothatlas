@@ -1,2 +1,2 @@
 # toothatlas
-How to use DistMap to spatially map molar-expressed genes
+How to use DistMap to spatially map expressed genes
