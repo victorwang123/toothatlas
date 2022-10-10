@@ -4,7 +4,7 @@ Spatial mappings of gene expression at E14.5 was made using DistMap method ([Kar
 ## Document Description
 - **vish.R**  The Script for processing data to spatially map expressed genes
 - **e14.5_geometry.csv** The file used to create the coordinates
-- **e14.5_spatial.rds** The object for processing and mapping to the virtual tooth
+- **e14.5_spatial.rds** The object for processing and mapping to the virtual tooth. Data from Mouse E14.5-days on GSE162413.
 ## Quick Start Guide
 In short,users need to download the files, then open the  `vish.R` in rstudio and run the script step by step.
 
