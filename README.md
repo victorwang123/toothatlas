@@ -13,6 +13,6 @@ In short,users need to download the files, then open the  `vish.R` in rstudio an
 
 Users can visualize the genes they want to predict by changing the gene names
 > plot_vish_image("Cdkn1c", 0.8)       
-> 'Cdkn1c' can be replaced by other gene names
+> 'Cdkn1c' could be replaced by other gene names
 
 ![vish1](./images/vish2.png)
