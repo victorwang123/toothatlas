@@ -1,10 +1,11 @@
 # ToothAtlas: How to use our data to spatially map expressed genes
 ## About
-Spatial mappings of gene expression at E14.5 was made using DistMap method ([Karaiskos et al., 2017](http://science.sciencemag.org/content/358/6360/194)). Briefly, Existing immunohistochemistry (IHC), immuno-fluorescence (IF) and in situ hybridization (ISH) data for dental marker genes (in total 103 genes used in E14.5 spatial mapping) were quality-checked before further extracted from published documents for downstream digitalization. Digitalized spatial matrixes were drawn according to the specific expression pattern of those digitalized dental markers. Gene expression profile of each cell from scRNA-seq dataset was then processed and mapped to the virtual tooth. Specific localization of expressed genes could then be predicted.
+Spatial mappings of gene expression at E14.5 was made using `DistMap` method ([Karaiskos et al., 2017](http://science.sciencemag.org/content/358/6360/194)). Briefly, Existing immunohistochemistry (IHC), immuno-fluorescence (IF) and in situ hybridization (ISH) data for dental marker genes (in total 103 genes used in E14.5 spatial mapping) were quality-checked before further extracted from published documents for downstream digitalization. Digitalized spatial matrixes were drawn according to the specific expression pattern of those digitalized dental markers. Gene expression profile of each cell from scRNA-seq dataset was then processed and mapped to the virtual tooth. Specific localization of expressed genes could then be predicted.
 ## Document Description
 - **vish.R**  The Script for processing data to spatially map expressed genes.
-- **e14.5_geometry.csv** The file used to create the coordinates。
-- **e14.5_spatial.rds** The object for processing and mapping to the virtual tooth. Data from Mouse E14.5-days on GSE162413. Also this object(.rds) is available up on request!
+- **e14.5_geometry.csv** The file used to create the coordinates.
+- **e14.5_insitu.csv** In situ expression information of reference genes.
+- **e14.5_spatial.rds** The object for processing and mapping to the virtual tooth.  This file is generated from the expression matrix and *e14.5_insitu.csv* . Raw data from Mouse E14.5-days on `GSE162413`. Also this object(.rds) is available up on request!
 ## Quick Start Guide
 In short,users need to download the files, then open the  `vish.R` in rstudio and run the script step by step.
 
